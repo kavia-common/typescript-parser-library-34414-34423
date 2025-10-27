@@ -10,4 +10,12 @@
     <PackageReference Include="NSwag.AspNetCore" Version="14.4.0" />
   </ItemGroup>
 
+  <!-- These folders help IDEs organize the library code; SDK includes .cs by default -->
+  <ItemGroup>
+    <Folder Include="TypescriptParser\Models\" />
+    <Folder Include="TypescriptParser\Parser\" />
+    <Folder Include="TypescriptParser\Serialization\" />
+    <Folder Include="Examples\" />
+  </ItemGroup>
+
 </Project>

@@ -16,6 +16,9 @@ builder.Services.AddCors(options =>
     });
 });
 
+// Optional: register the TypeScript parser in DI for consumers within this process.
+builder.Services.AddSingleton<TypescriptParser.ITypescriptParser, TypescriptParser.TypescriptParserFacade>();
+
 var app = builder.Build();
 
 // Use CORS
