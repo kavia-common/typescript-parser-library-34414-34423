@@ -1,0 +1,4 @@
+{
+    "command": "dotnet restore",
+    "working_directory": "/home/kavia/workspace/code-generation/typescript-parser-library-34414-34423/csharp_typescript_parser_backend"
+}
